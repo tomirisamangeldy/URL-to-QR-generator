@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+* {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 0;
+}
+.main{
+    margin: 70px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 20px 15px;
+    margin: 0 auto 30px;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #FF7601;
+    border: #FF7601 solid;
+    color:white;
+    transition:0.2s ;
+}
+button:hover{
+    background-color: white;
+    color: #FF7601;
+    width: 210px;
+    transition:0.2s ;
+    cursor: pointer;
+}
+a{
+    font-size: 0.7em;
+    color: black;
+}
+a:active{
+    color: #FF7601;
+}
+@media only screen and (max-width:700px) { /*small devices*/
+h3, .try-again{
+   font-size: 0.8em; 
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+button{
+    padding: 15px 10px;
+    width: 150px;
+    height: 18px;
+}
+button:hover{
+    width: 155px;
+}
+}
+
+@media only screen and (max-width:500px) { /* extra small devices*/
+h3, .try-again{
+   font-size: 0.6em; 
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+}
