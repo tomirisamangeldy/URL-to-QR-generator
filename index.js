@@ -30,7 +30,7 @@ app.post("/submit", (req, res) => {
   console.log('QR code saved to qr.png');
   //HTML display
   app.get("/", (req, res)=>{
-  res.sendFile(__dirname + "/public/index.html"); //use 'sendFile' to send page instead of 'send' to send HTML element
+  res.sendFile(__dirname + "/index.html"); //use 'sendFile' to send page instead of 'send' to send HTML element
   });
   });
 });
